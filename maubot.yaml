@@ -1,0 +1,10 @@
+maubot: 0.3.0
+id: com.conan747.gladiatranscribe
+version: 0.0.1
+license: AGPL-3.0-or-later
+modules:
+  - gladiatranscribe
+main_class: GladiaTranscribe
+config: true
+extra_files:
+  - base-config.yaml
