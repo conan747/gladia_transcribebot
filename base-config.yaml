@@ -1,11 +1,5 @@
 # API key
 api_key: "mysecretkey"
 
-# Languages that can be detected (https://docs.gladia.io/api-reference/v2/pre-recorded/init#body-code-switching-config)
-languages: 
-  - en
-  - de
-  - es
-
 # The interval to poll for transcriptions. In seconds.
 poll_interval: 10
