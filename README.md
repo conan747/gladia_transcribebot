@@ -6,7 +6,6 @@ It uses the [Gladia](https://gladia.io/) api which offers a free tier to transcr
 
 Get yourself a Gladia API key and set it in the configuration.
 
-You can set a number of possible languages to transcribe. The list is [here](https://docs.gladia.io/api-reference/v2/pre-recorded/init#body-language).
 
 ## Rationale
 

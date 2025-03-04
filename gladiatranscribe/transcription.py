@@ -120,8 +120,6 @@ class GladiaTranscribe(Plugin):
         # initialize data for the POST request
         request_data = aiohttp.JsonPayload({
             "audio_url": audio_url,
-            "enable_code_switching": True,
-            "code_switching_config": {"languages": self.config['languages']}
         })
         response = await self.http.post(TRANSCRIPTION_URL, data=request_data)
         response_json = await response.json()
